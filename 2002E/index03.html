@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        background-image: url("img/txt02.png");
+    }
+    .parent{
+        text-align: center;
+        color: white;
+        width: 100%;
+        height: 300px;
+        background-color: royalblue;
+        overflow: hidden;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-image: url("img/ph1.jpg");
+    }
+    .child{
+        
+        width: 100%;
+        background-color: orange;
+        height: 100%;
+        opacity: 0.6;
+        clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    }
+    /* .child:hover{
+        width: 100%;
+        cursor: pointer;
+        background-color: greenyellow;
+        height: 100%;
+        
+        transition: ease-in 3s;
+        clip-path: polygon(0% 0%, 0% 100%, 25% 100%, 25% 25%, 75% 25%, 75% 75%, 25% 75%, 25% 100%, 100% 100%, 100% 0%);
+    } */
+    .section1{
+        height: 250px;
+        margin-top: 1rem;
+        width: 100%;
+        padding: 2rem;
+        background-color: gray;
+    }
+</style>
+<body>
+    <div class="parent">
+        <h1>PAkistan Zindabad</h1>
+        <div class="child">
+           
+        </div>
+    </div>
+    <div class="section1">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit rem commodi reiciendis eius voluptate. Quae vero odio qui. Iste recusandae est aperiam, dolorem nesciunt natus nisi inventore fugiat accusamus accusantium.</p>
+    </div>
+
+</body>
+</html>
